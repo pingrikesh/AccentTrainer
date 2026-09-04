@@ -1,0 +1,121 @@
+{
+  "lessons": [
+    {
+      "id": "sound-th-1",
+      "title": "TH Sound Basics",
+      "category": "Sounds",
+      "text": "I think the weather is beautiful today.",
+      "focusSounds": ["th"],
+      "tip": "For TH, place your tongue lightly between your teeth. Do not substitute F or D sounds.",
+      "difficulty": 1
+    },
+    {
+      "id": "sound-r-1",
+      "title": "American R",
+      "category": "Sounds",
+      "text": "The red car turned right around the corner.",
+      "focusSounds": ["r"],
+      "tip": "Curl your tongue back without touching the roof of your mouth. Keep the sound smooth.",
+      "difficulty": 1
+    },
+    {
+      "id": "sound-v-w-1",
+      "title": "V vs W",
+      "category": "Sounds",
+      "text": "We visited the vineyard over the weekend.",
+      "focusSounds": ["v", "w"],
+      "tip": "For V, touch your lower lip to your upper teeth. For W, round your lips like saying oo.",
+      "difficulty": 2
+    },
+    {
+      "id": "sound-ee-ih-1",
+      "title": "Ship vs Sheep",
+      "category": "Sounds",
+      "text": "I need to sit in this seat by the ship.",
+      "focusSounds": ["ee", "ih"],
+      "tip": "Stretch your mouth wider for the long EE sound. Keep IH shorter and more relaxed.",
+      "difficulty": 2
+    },
+    {
+      "id": "rhythm-1",
+      "title": "Smooth Linking",
+      "category": "Rhythm & Flow",
+      "text": "I want to go out and get a cup of coffee.",
+      "focusSounds": ["linking", "reduction"],
+      "tip": "Link words naturally: want_to becomes wanna, cup_of becomes cuppa in casual speech.",
+      "difficulty": 2
+    },
+    {
+      "id": "rhythm-2",
+      "title": "Sentence Stress",
+      "category": "Rhythm & Flow",
+      "text": "I NEED to FINISH this REPORT by FRIDAY.",
+      "focusSounds": ["stress"],
+      "tip": "Stress content words (nouns, verbs, adjectives). Reduce function words like to, the, and.",
+      "difficulty": 2
+    },
+    {
+      "id": "rhythm-3",
+      "title": "Even Pacing",
+      "category": "Rhythm & Flow",
+      "text": "Every morning I practice speaking clearly and confidently.",
+      "focusSounds": ["pacing"],
+      "tip": "Aim for about 130 to 150 words per minute. Pause briefly at commas, longer at periods.",
+      "difficulty": 3
+    },
+    {
+      "id": "sentence-1",
+      "title": "Daily Introduction",
+      "category": "Sentences",
+      "text": "Hi, my name is Rikesh and I work in technology.",
+      "focusSounds": ["th", "r", "technology"],
+      "tip": "Smile slightly on HI. Hit the stressed syllables: NAME, WORK, tech-NOL-o-gy.",
+      "difficulty": 1
+    },
+    {
+      "id": "sentence-2",
+      "title": "Asking Questions",
+      "category": "Sentences",
+      "text": "Could you tell me where the nearest station is?",
+      "focusSounds": ["questions", "intonation"],
+      "tip": "Let your pitch rise at the end of questions. Keep could you soft and linked.",
+      "difficulty": 2
+    },
+    {
+      "id": "sentence-3",
+      "title": "Professional Update",
+      "category": "Sentences",
+      "text": "I completed the project ahead of schedule and shared the results with the team.",
+      "focusSounds": ["professional"],
+      "tip": "Speak with steady confidence. Emphasize completed, ahead, results, and team.",
+      "difficulty": 3
+    },
+    {
+      "id": "conversation-1",
+      "title": "Coffee Shop",
+      "category": "Conversation",
+      "text": "Hi there, could I get a medium latte with oat milk, please?",
+      "focusSounds": ["conversation", "politeness"],
+      "tip": "Sound warm and natural. Link could I and soften please at the end.",
+      "difficulty": 2
+    },
+    {
+      "id": "conversation-2",
+      "title": "Meeting Opener",
+      "category": "Conversation",
+      "text": "Thanks everyone for joining. Today we'll review the quarterly goals and next steps.",
+      "focusSounds": ["meetings"],
+      "tip": "Open with energy on thanks and joining. Slow down slightly on quarterly goals.",
+      "difficulty": 3
+    },
+    {
+      "id": "conversation-3",
+      "title": "Phone Introduction",
+      "category": "Conversation",
+      "text": "Hello, this is Rikesh calling about the interview scheduled for tomorrow.",
+      "focusSounds": ["phone"],
+      "tip": "Speak slightly slower on the phone. Enunciate your name and the key noun interview.",
+      "difficulty": 3
+    }
+  ]
+}

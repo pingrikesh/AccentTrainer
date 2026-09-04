@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* AccentTrainerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000001 /* AccentTrainerApp.swift */; };
+		A10000010000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000002 /* ContentView.swift */; };
+		A10000010000000000000003 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000003 /* Lesson.swift */; };
+		A10000010000000000000004 /* PracticeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000004 /* PracticeRecord.swift */; };
+		A10000010000000000000005 /* AnalysisResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000005 /* AnalysisResult.swift */; };
+		A10000010000000000000006 /* AudioRecorderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000006 /* AudioRecorderService.swift */; };
+		A10000010000000000000007 /* TextToSpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000007 /* TextToSpeechService.swift */; };
+		A10000010000000000000008 /* SpeechAnalyzerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000008 /* SpeechAnalyzerService.swift */; };
+		A10000010000000000000009 /* PronunciationScorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000009 /* PronunciationScorer.swift */; };
+		A1000001000000000000000A /* AIFeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000000A /* AIFeedbackService.swift */; };
+		A1000001000000000000000B /* LessonStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000000B /* LessonStore.swift */; };
+		A1000001000000000000000C /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000000C /* AppSettings.swift */; };
+		A1000001000000000000000D /* PracticeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000000D /* PracticeViewModel.swift */; };
+		A1000001000000000000000E /* LessonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000000E /* LessonListView.swift */; };
+		A1000001000000000000000F /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000000F /* PracticeView.swift */; };
+		A10000010000000000000010 /* ProgressDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000010 /* ProgressDashboardView.swift */; };
+		A10000010000000000000011 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000011 /* SettingsView.swift */; };
+		A10000010000000000000012 /* RecordingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000012 /* RecordingButton.swift */; };
+		A10000010000000000000013 /* ScoreRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000013 /* ScoreRing.swift */; };
+		A10000010000000000000014 /* WordHighlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000014 /* WordHighlightView.swift */; };
+		A10000010000000000000015 /* lessons.json in Resources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000015 /* lessons.json */; };
+		A10000010000000000000016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000016 /* Assets.xcassets */; };
+		A10000010000000000000017 /* LocalCoachingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000018 /* LocalCoachingService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000010000000000000001 /* AccentTrainerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentTrainerApp.swift; sourceTree = "<group>"; };
+		A20000010000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000010000000000000003 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		A20000010000000000000004 /* PracticeRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeRecord.swift; sourceTree = "<group>"; };
+		A20000010000000000000005 /* AnalysisResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisResult.swift; sourceTree = "<group>"; };
+		A20000010000000000000006 /* AudioRecorderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderService.swift; sourceTree = "<group>"; };
+		A20000010000000000000007 /* TextToSpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechService.swift; sourceTree = "<group>"; };
+		A20000010000000000000008 /* SpeechAnalyzerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechAnalyzerService.swift; sourceTree = "<group>"; };
+		A20000010000000000000009 /* PronunciationScorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PronunciationScorer.swift; sourceTree = "<group>"; };
+		A2000001000000000000000A /* AIFeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIFeedbackService.swift; sourceTree = "<group>"; };
+		A2000001000000000000000B /* LessonStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonStore.swift; sourceTree = "<group>"; };
+		A2000001000000000000000C /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		A2000001000000000000000D /* PracticeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewModel.swift; sourceTree = "<group>"; };
+		A2000001000000000000000E /* LessonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonListView.swift; sourceTree = "<group>"; };
+		A2000001000000000000000F /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		A20000010000000000000010 /* ProgressDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressDashboardView.swift; sourceTree = "<group>"; };
+		A20000010000000000000011 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A20000010000000000000012 /* RecordingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingButton.swift; sourceTree = "<group>"; };
+		A20000010000000000000013 /* ScoreRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreRing.swift; sourceTree = "<group>"; };
+		A20000010000000000000014 /* WordHighlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordHighlightView.swift; sourceTree = "<group>"; };
+		A20000010000000000000015 /* lessons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = lessons.json; sourceTree = "<group>"; };
+		A20000010000000000000018 /* LocalCoachingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCoachingService.swift; sourceTree = "<group>"; };
+		A20000010000000000000016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000010000000000000017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30000010000000000000001 /* AccentTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccentTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50000010000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A50000010000000000000002 /* AccentTrainer */,
+				A50000010000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50000010000000000000002 /* AccentTrainer */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000001 /* AccentTrainerApp.swift */,
+				A50000010000000000000004 /* Models */,
+				A50000010000000000000005 /* Services */,
+				A50000010000000000000006 /* ViewModels */,
+				A50000010000000000000007 /* Views */,
+				A50000010000000000000008 /* Resources */,
+				A20000010000000000000016 /* Assets.xcassets */,
+				A20000010000000000000017 /* Info.plist */,
+			);
+			path = AccentTrainer;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30000010000000000000001 /* AccentTrainer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000003 /* Lesson.swift */,
+				A20000010000000000000004 /* PracticeRecord.swift */,
+				A20000010000000000000005 /* AnalysisResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000006 /* AudioRecorderService.swift */,
+				A20000010000000000000007 /* TextToSpeechService.swift */,
+				A20000010000000000000008 /* SpeechAnalyzerService.swift */,
+				A20000010000000000000009 /* PronunciationScorer.swift */,
+				A2000001000000000000000A /* AIFeedbackService.swift */,
+				A20000010000000000000018 /* LocalCoachingService.swift */,
+				A2000001000000000000000B /* LessonStore.swift */,
+				A2000001000000000000000C /* AppSettings.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000006 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A2000001000000000000000D /* PracticeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000002 /* ContentView.swift */,
+				A2000001000000000000000E /* LessonListView.swift */,
+				A2000001000000000000000F /* PracticeView.swift */,
+				A20000010000000000000010 /* ProgressDashboardView.swift */,
+				A20000010000000000000011 /* SettingsView.swift */,
+				A50000010000000000000009 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000008 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000015 /* lessons.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000009 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000012 /* RecordingButton.swift */,
+				A20000010000000000000013 /* ScoreRing.swift */,
+				A20000010000000000000014 /* WordHighlightView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60000010000000000000001 /* AccentTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000010000000000000003 /* Build configuration list for PBXNativeTarget "AccentTrainer" */;
+			buildPhases = (
+				A70000010000000000000001 /* Sources */,
+				A40000010000000000000001 /* Frameworks */,
+				A70000010000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccentTrainer;
+			productName = AccentTrainer;
+			productReference = A30000010000000000000001 /* AccentTrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90000010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A60000010000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A80000010000000000000001 /* Build configuration list for PBXProject "AccentTrainer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50000010000000000000001;
+			productRefGroup = A50000010000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60000010000000000000001 /* AccentTrainer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70000010000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000015 /* lessons.json in Resources */,
+				A10000010000000000000016 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70000010000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000001 /* AccentTrainerApp.swift in Sources */,
+				A10000010000000000000002 /* ContentView.swift in Sources */,
+				A10000010000000000000003 /* Lesson.swift in Sources */,
+				A10000010000000000000004 /* PracticeRecord.swift in Sources */,
+				A10000010000000000000005 /* AnalysisResult.swift in Sources */,
+				A10000010000000000000006 /* AudioRecorderService.swift in Sources */,
+				A10000010000000000000007 /* TextToSpeechService.swift in Sources */,
+				A10000010000000000000008 /* SpeechAnalyzerService.swift in Sources */,
+				A10000010000000000000009 /* PronunciationScorer.swift in Sources */,
+				A1000001000000000000000A /* AIFeedbackService.swift in Sources */,
+				A10000010000000000000017 /* LocalCoachingService.swift in Sources */,
+				A1000001000000000000000B /* LessonStore.swift in Sources */,
+				A1000001000000000000000C /* AppSettings.swift in Sources */,
+				A1000001000000000000000D /* PracticeViewModel.swift in Sources */,
+				A1000001000000000000000E /* LessonListView.swift in Sources */,
+				A1000001000000000000000F /* PracticeView.swift in Sources */,
+				A10000010000000000000010 /* ProgressDashboardView.swift in Sources */,
+				A10000010000000000000011 /* SettingsView.swift in Sources */,
+				A10000010000000000000012 /* RecordingButton.swift in Sources */,
+				A10000010000000000000013 /* ScoreRing.swift in Sources */,
+				A10000010000000000000014 /* WordHighlightView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA0000010000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA0000010000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AccentTrainer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.AccentTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA0000010000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AccentTrainer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.AccentTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000010000000000000001 /* Build configuration list for PBXProject "AccentTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000010000000000000001 /* Debug */,
+				AA0000010000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000010000000000000003 /* Build configuration list for PBXNativeTarget "AccentTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000010000000000000003 /* Debug */,
+				AA0000010000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90000010000000000000001 /* Project object */;
+}
